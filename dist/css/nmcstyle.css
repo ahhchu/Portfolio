@@ -1,0 +1,62 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e5e7e3; /* Light accent background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem;
+    color: #759c73; /* Dark green accent */
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #759c73; /* Dark green accent */
+    margin: 15px 0;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Dark text for contrast */
+    margin: 0 auto;
+    width: 80%; /* Restricts paragraph width for better readability */
+}
+
+/* List styling */
+ul {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    color: #333; /* Dark text for contrast */
+    margin: 10px 0;
+}
+
+/* Link styling */
+a {
+    color: #759c73;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid #759c73; /* Adds a green accent border */
+    border-radius: 8px;
+}
